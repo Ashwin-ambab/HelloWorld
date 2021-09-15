@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <header class="main-header"> 
+        <h1 class="heading-1">Header</h1>
+
+        <div class="dropdown" >
+            <button onclick="drpdwn()" class="dropdown-btn">Employee</button>
+            <div id="dd" class="dropdown-content">
+                <h6>JavaScrip</h6>
+                <h6>Java</h6>
+                <h6>Magneto</h6>
+            </div>
+        </div>
+    </header>
+    
+    <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Contact</a>
+        <a href="../grid/form-jquery/">Form</a>
+    </nav>
+
+    <div class="section">
+        <div class="article">
+            <div class="articlebox">
+                <div class="para1">
+                    <h1 id="result"></h1>
+                </div>
+                <div class="para2">
+                    <div class="input-div">
+                        <input id="num1" type="number" placeholder="number1"/> <br> <br>
+                        <input id='num2' type="number" placeholder="number2"/> <br> <br>
+                    </div>
+                    <div class="calculator">
+                        <button onclick="allClear()">AC</button>
+                        <button onclick="division()">%</button> 
+                        <button onclick="multiplication()">*</button>
+                        <button onclick="addition()">+</button>
+                        <button onclick="subtraction()">-</button>
+                
+                    <div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="outside">
+        <!-- <h1 class="calc-j">Calculator using jQuery</h1> -->
+      <div class="main">
+        <input type="number" id="txtNo1" class="input-number" placeholder="Enter first number"><br>    
+        <input type="number" id="txtNo2" class="input-number" placeholder="Enter second number"><br>    
+        <input type="button" id="Add" value="addition">    
+        <input type="button" id="Substract" value="substract">    
+        <input type="button" id="Multiply" value="multiply">    
+        <input type="button" id="Divide" value="divide">
+        <input type="button" id="AllClear" value="allClear">   
+
+        <h3 id="results"></h3>
+
+
+      </div>
+    </div>
+    </div>
+     <div class="last">
+
+        <div class="accordion">
+            <div class="accordion-1">
+                <button id="btn-1">Tabs-1</button>
+                <div id="acc">
+                    <div class="accordion-content">
+                        <button id="sub-btn" class="sub-button">sub-section</button>
+                        <p class="sub-paragraph" id="sub-para">Lorem ipsum dolor sit amet consectetur adip.</p>
+                    </div>
+                    <button id="btn-2" class="button-2">Section-2</button>
+                    <div class="accordion-content-1">
+                        <p class="paragraph-2" id="para-2">Lorem ipsum  deserunt, deleniti possimus doloremque.</p>
+                    </div>
+                    <button id="btn-3" class="button-3">Section-3</button>
+                    <div class="accordion-content-2">
+                        <p class="paragraph-3" id="para-3">Lorero eos nemo consequatur, atque, deserunt, deleniti possimus doloremque.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+         
+     </div>
+    </div>
+
+    <footer class="footer">
+        <h3>FOOTER</h3>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-1.10.2.js"></script>   -->
+    <!-- <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>   -->
+
+    
+</body>
+</html>
